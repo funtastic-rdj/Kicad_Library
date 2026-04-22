@@ -1,3 +1,4 @@
+# FOOTPRINT LIBRARY
 This folder contains footprints.
 It is categorized according to components and not IPC Standard.
 If possible follow IPC-2581B for naming the footprints.

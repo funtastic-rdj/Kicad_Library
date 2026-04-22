@@ -1,0 +1,221 @@
+(footprint "R_0402"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "APPROVED(24/3/26)")
+	(tags "0402 Resistor footprint")
+	(property "Reference" "REF**"
+		(at -1.325 -1.225 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e19a34d3-5772-475d-90ff-eb2d78d9884c")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.2032)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 1.778 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0889eed1-89df-4992-ba43-50c25edccadf")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+				(bold yes)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86fcf41a-e983-4635-9e0d-e6968c09d462")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e47e1fa-6aca-4ddf-9e5d-2154bcb60b58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.016 -0.508)
+		(end -1.016 0.508)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4850ac4e-3192-42a5-913e-15e728cd2405")
+	)
+	(fp_line
+		(start -1.016 0.508)
+		(end 1.016 0.508)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a5820be5-1527-4d3c-94ba-747629928fa9")
+	)
+	(fp_line
+		(start 1.016 -0.508)
+		(end -1.016 -0.508)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1f711f3b-fc7a-4ce0-bb2a-9a029871ce00")
+	)
+	(fp_line
+		(start 1.016 0.508)
+		(end 1.016 -0.508)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cf203494-225b-4331-9027-9a6001cfa6ef")
+	)
+	(fp_line
+		(start -1.016 -0.508)
+		(end 1.016 -0.508)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c228cdea-d067-4cdb-a1d7-5d9a7ac7b2f0")
+	)
+	(fp_line
+		(start -1.016 0.508)
+		(end -1.016 -0.508)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "af126900-2bf9-4c06-bd8e-bdf5de7ffe45")
+	)
+	(fp_line
+		(start 1.016 -0.508)
+		(end 1.016 0.508)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "135c4ddf-a068-403c-81a9-0c21563b6146")
+	)
+	(fp_line
+		(start 1.016 0.508)
+		(end -1.016 0.508)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "aa02610d-0a85-4ab1-a1f8-2a5f68af57a5")
+	)
+	(fp_line
+		(start -1.016 -0.508)
+		(end 1.016 -0.508)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cc4927a4-6e6c-441f-8153-7ce301de8b8d")
+	)
+	(fp_line
+		(start -1.016 0.508)
+		(end -1.016 -0.508)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9aa6d4b6-ce31-4263-ae5d-147ee8d41711")
+	)
+	(fp_line
+		(start 1.016 -0.508)
+		(end 1.016 0.508)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a117a354-137e-4709-963e-25aa61c3669d")
+	)
+	(fp_line
+		(start 1.016 0.508)
+		(end -1.016 0.508)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d281d905-b7de-42d0-be94-98ab09c1e54c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.025 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "982ecbf8-b01a-46d3-ad54-0226df62b736")
+		(effects
+			(font
+				(size 0.508 0.508)
+				(thickness 0.1016)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.525 0)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "571e8599-c74a-4b77-8832-801b4af55545")
+	)
+	(pad "2" smd rect
+		(at 0.525 0)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f1ad1ba2-fc83-4870-b9c0-5b5bd3034e58")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/User/Documents/KiCad_Library/3D Components/Resistor_3D_Model/resistor_0402.step"
+		(offset
+			(xyz -0.508 -0.2794 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

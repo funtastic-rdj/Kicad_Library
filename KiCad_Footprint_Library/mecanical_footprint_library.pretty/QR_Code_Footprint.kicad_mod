@@ -1,0 +1,108 @@
+(footprint "QR_Code_Footprint"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "APPROVED (5/4/26)")
+	(property "Reference" "REF**"
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8d33abac-8d8c-4b3a-a60d-ea99334c2f08")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.2032)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1510c17-8e1c-4be5-a01d-4aacce429b6d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1778)
+			)
+			(justify left)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "12b9976b-8893-4de3-8450-2253a7310c2a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eeec24da-5f7d-4e66-bb63-79965b0c07eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start 0 0)
+		(end 10 10)
+		(stroke
+			(width 0.1524)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a5d84186-8a58-4111-a2e7-43938aae42fe")
+	)
+	(fp_rect
+		(start 0 0)
+		(end 10 10)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ecd281d7-f769-4e57-9960-58c164628d2a")
+	)
+	(fp_rect
+		(start 0 0)
+		(end 10 10)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b9304e75-5196-4542-a2db-7dccf745663f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a1751bba-1970-4cca-b18e-6f75ca9874b4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1778)
+			)
+			(justify left)
+		)
+	)
+	(embedded_fonts no)
+)

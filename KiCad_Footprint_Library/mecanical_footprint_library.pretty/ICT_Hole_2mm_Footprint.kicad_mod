@@ -1,0 +1,71 @@
+(footprint "ICT_Hole_2mm_Footprint"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Approved (6/4/26)")
+	(tags "ICT_Hole- Dia-2mm , NPTH")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "30a9f472-7b3c-4756-bea2-63706af071cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Untitled"
+		(at -0.2 4.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d7aac12-2bbd-4547-a347-5dd21ffd0cb8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7808ee7d-8e13-478a-9960-d3f758c64d0b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f25f4da2-68ee-4ec0-b8f9-3d1119517a8d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 2)
+		(property pad_prop_mechanical)
+		(layers "*.Cu" "*.Mask" "Dwgs.User")
+		(uuid "7b145e07-a764-41e7-abda-aa761c69b476")
+	)
+	(embedded_fonts no)
+)

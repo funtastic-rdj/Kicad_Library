@@ -1,0 +1,96 @@
+(kicad_wks
+	(version 20231118)
+	(generator "pl_editor")
+	(generator_version "9.0")
+	(setup
+		(textsize 1.5 1.5)
+		(linewidth 0.15)
+		(textlinewidth 0.15)
+		(left_margin 5)
+		(right_margin 5)
+		(top_margin 5)
+		(bottom_margin 5)
+	)
+	(line
+		(name "")
+		(start 19.9892 16.0022)
+		(end 19.9892 8.0022)
+	)
+	(line
+		(name "")
+		(start 64.9892 4.0022)
+		(end -0.0108 4.0022)
+	)
+	(line
+		(name "")
+		(start 64.9892 11.6022)
+		(end 19.9892 11.6022)
+	)
+	(rect
+		(name "")
+		(start -0.0108 16.0022)
+		(end 64.9892 0.0022)
+	)
+	(line
+		(name "")
+		(start 51.5892 8.0022)
+		(end 51.5892 4.0022)
+	)
+	(rect
+		(name "")
+		(start 0 0 ltcorner)
+		(end 0.0022 0.0072)
+	)
+	(line
+		(name "")
+		(start 19.9892 8.0022)
+		(end 19.9892 4.0022)
+	)
+	(line
+		(name "")
+		(start 64.9892 8.0022)
+		(end 19.9892 8.0022)
+	)
+	(tbtext "MYDYA"
+		(name "")
+		(pos 19.7002 9.5002)
+		(font
+			(face "Arial Black")
+			(size 3.5 3.5) bold
+			(color 0 0 0 1)
+		)
+	)
+	(tbtext "${KICAD_VERSION}"
+		(name "")
+		(pos 63.9892 2.0022)
+	)
+	(tbtext ""
+		(name "")
+		(pos 63.6022 -6.4928)
+	)
+	(tbtext "File Name: ${FILENAME}"
+		(name "")
+		(pos 63.9022 9.9072)
+	)
+	(tbtext "Size: ${PAPER}\n"
+		(name "")
+		(pos 63.9892 6.0022)
+	)
+	(tbtext "Title: Put product name + PCB"
+		(name "")
+		(pos 64.3022 -8.0928)
+		(option page1only)
+	)
+	(tbtext "Title: ${TITLE}"
+		(name "")
+		(pos 63.9892 13.6022)
+	)
+	(tbtext "Date: ${ISSUE_DATE}"
+		(name "")
+		(pos 50.3892 6.0022)
+	)
+	(tbtext "Write name of that Layer on that Layer .\nAlso mention Fabrication related information on this sheet also . "
+		(name "")
+		(pos 64.0022 -14.9928)
+	)
+)
